@@ -13,7 +13,7 @@ body{
 .header{
     position:relative;
     min-height : 60vh;
-    background-image: url("bgimage.jpg");
+    background-image: url("bgimage.webp");
     background-size: cover;
     background-position: center;
     color :rgb(255, 255, 255);
@@ -69,7 +69,7 @@ body{
 }
 
 .section-todo{
-    margin-top:5rem;
+    margin-top:3rem;
     margin-bottom : 5rem;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -100,12 +100,6 @@ body{
     box-shadow: 0 0 5px rgba(100, 100, 250, 0.5);
 }
 
-/* .form-todo input[type ="submit"]{
-    width : 20%;
-    background-color:rgb(237, 209, 235);
-    font-weight: bold;
-    border-radius: 3px;
-} */
 .form-todo input[type="submit"] {
     width: 20%;
     background-color:rgb(38, 39, 41);
@@ -209,6 +203,10 @@ body{
 
     .headline, .section-todo {
         padding: 1rem;
+    }
+
+    .section-todo h2{
+        font-size: 1.25rem;
     }
     
     .form-todo{
